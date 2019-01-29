@@ -31,10 +31,11 @@ def double_a_float():
          -6.28
     """
     # -------------------------------------------------------------------------
-    # Todo: 2. Implement and test this function.
+    # done: 2. Implement and test this function.
     #   The testing code is already written for you (above).
     # -------------------------------------------------------------------------
-
+    a = input('enter a float:')
+    print(2 * float(a))
 
 def print_an_integer_many_times():
     """
@@ -62,10 +63,12 @@ def print_an_integer_many_times():
          10
     """
     # -------------------------------------------------------------------------
-    # TODO: 3. Implement and test this function.
+    # done: 3. Implement and test this function.
     #   The testing code is already written for you (above).
     # -------------------------------------------------------------------------
-
+    a = input('enter an integer:')
+    for k in range(int(a)):
+        print(int(a) * 2)
 
 def print_an_integer_many_times_on_one_row():
     """
@@ -81,13 +84,14 @@ def print_an_integer_many_times_on_one_row():
          1010101010
     """
     # -------------------------------------------------------------------------
-    # TODO: 4. Implement and test this function.
+    # done: 4. Implement and test this function.
     #   The testing code is already written for you (above).
     #
     # HINT: One way to print on a SINGLE line is to build up a string
     #       and then print that (single) string.
     # -------------------------------------------------------------------------
-
+    a = input('enter an integer:')
+    print(str(int(a) * 2) * int(a))
 
 def input_it_all():
     """
@@ -121,10 +125,17 @@ def input_it_all():
          Peace & Love.
     """
     # -------------------------------------------------------------------------
-    # TODO: 5. Implement and test this function.
+    # done: 5. Implement and test this function.
     #   The testing code is already written for you (above).
     # -------------------------------------------------------------------------
+    a = input('enter a positive float:')
+    b = input('enter a positive integer:')
+    c = input('enter a string:')
 
+    for k in range(int(b)):
+        print(float(a) * 2)
+    for i in range(int(b)):
+        print(c)
 
 # -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
